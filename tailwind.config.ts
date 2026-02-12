@@ -11,12 +11,12 @@ const config: Config = {
 		extend: {
 			fontFamily: {
 				sans: [
-					'Inter"',
+					'Inter',
 					'system-ui',
 					'sans-serif'
 				],
 				oswald: [
-					'Oswald"',
+					'Oswald',
 					'sans-serif'
 				]
 			},

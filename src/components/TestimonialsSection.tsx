@@ -103,7 +103,7 @@ export default function TestimonialsSection() {
                         <div className="relative z-10 flex flex-col h-full justify-between gap-12">
                             <Quote className="w-16 h-16 text-neon-primary opacity-50" />
                             <p className="text-4xl md:text-6xl font-black text-white leading-tight tracking-tight uppercase max-w-4xl">
-                                "{testimonials[0].content}"
+                                &quot;{testimonials[0].content}&quot;
                             </p>
                             <div className="flex justify-between items-end">
                                 <div>
@@ -134,7 +134,7 @@ export default function TestimonialsSection() {
                             </div>
                         </div>
                         <p className="text-xl font-bold text-gray-300 uppercase leading-relaxed italic">
-                            "{testimonials[1].content}"
+                            &quot;{testimonials[1].content}&quot;
                         </p>
                         <div className="pt-8 border-t border-white/10">
                             <h4 className="font-black text-white uppercase">{testimonials[1].name}</h4>
@@ -180,7 +180,7 @@ export default function TestimonialsSection() {
                         />
                         <div className="relative z-10 flex flex-col h-full justify-between gap-12">
                             <p className="text-3xl md:text-5xl font-black text-white leading-tight tracking-tight uppercase max-w-4xl">
-                                "{testimonials[2].content}"
+                                &quot;{testimonials[2].content}&quot;
                             </p>
                             <div className="flex justify-between items-center">
                                 <div>
